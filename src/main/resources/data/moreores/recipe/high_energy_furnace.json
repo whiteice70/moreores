@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "L": "moreores:lead_block",
+    "L": "moreores:lead_ingot",
     "F": "minecraft:furnace"
   },
   "pattern": [

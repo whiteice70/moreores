@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "lead_nugget",
+  "ingredients": [
+    "moreores:lead_ingot"
+  ],
+  "result": {
+    "count": 9,
+    "id": "moreores:lead_nugget"
+  }
+}

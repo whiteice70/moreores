@@ -1,0 +1,9 @@
+{
+  "type": "moreores:bio_catalyzing",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "minecraft:glow_berries",
+  "result": {
+    "id": "minecraft:glow_berries"
+  }
+}

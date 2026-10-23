@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    "moreores:uranium_sword",
+    "moreores:uranium_pickaxe",
+    "moreores:uranium_axe",
+    "moreores:uranium_shovel",
+    "moreores:uranium_hoe"
+  ],
+  "result": {
+    "id": "moreores:uranium_nugget"
+  }
+}

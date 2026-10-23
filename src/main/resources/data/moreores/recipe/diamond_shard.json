@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "diamond_shard",
+  "ingredients": [
+    "minecraft:diamond"
+  ],
+  "result": {
+    "count": 9,
+    "id": "moreores:diamond_shard"
+  }
+}

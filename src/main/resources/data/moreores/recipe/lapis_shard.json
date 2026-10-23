@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "lapis_shard",
+  "ingredients": [
+    "minecraft:lapis_lazuli"
+  ],
+  "result": {
+    "count": 9,
+    "id": "moreores:lapis_shard"
+  }
+}

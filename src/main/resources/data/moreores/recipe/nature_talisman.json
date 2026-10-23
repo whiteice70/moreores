@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "nature_talisman",
+  "key": {
+    "S": "minecraft:wheat_seeds",
+    "C": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    "SCS",
+    "CCC",
+    "SCS"
+  ],
+  "result": {
+    "id": "moreores:nature_talisman"
+  }
+}

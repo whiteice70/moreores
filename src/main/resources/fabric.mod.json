@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "moreores",
+	"version": "${version}",
+	"name": "More Ores",
+	"description": "加入铀和铅两种新矿物：铅是浅层常见的工业金属，铀是深层稀有且自发绿光的矿物。",
+	"authors": [
+		"Me!"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/moreores/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.moreores.MoreOres"
+		],
+		"client": [
+			"com.example.moreores.client.MoreOresClient"
+		]
+	},
+	"mixins": [
+		"moreores.mixins.json",
+		{
+			"config": "moreores.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

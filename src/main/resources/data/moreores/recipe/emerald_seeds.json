@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": "minecraft:emerald",
+    "W": "minecraft:wheat_seeds"
+  },
+  "pattern": [
+    "WWW",
+    "WMW",
+    "WWW"
+  ],
+  "result": {
+    "id": "moreores:emerald_seeds",
+    "count": 8
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "geiger_counter",
+  "key": {
+    "L": "moreores:lead_ingot",
+    "R": "minecraft:redstone",
+    "G": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    " L ",
+    "RGR",
+    " L "
+  ],
+  "result": {
+    "id": "moreores:geiger_counter"
+  }
+}

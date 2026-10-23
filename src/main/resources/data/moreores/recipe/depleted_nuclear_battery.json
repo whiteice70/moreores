@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "lead_ingot",
+  "ingredients": [
+    "moreores:depleted_nuclear_battery"
+  ],
+  "result": {
+    "count": 4,
+    "id": "moreores:lead_ingot"
+  }
+}

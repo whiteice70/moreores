@@ -1,0 +1,9 @@
+{
+  "type": "moreores:bio_catalyzing",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "minecraft:gray_wool",
+  "result": {
+    "id": "minecraft:string"
+  }
+}

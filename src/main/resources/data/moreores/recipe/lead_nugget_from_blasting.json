@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    "moreores:lead_sword",
+    "moreores:lead_pickaxe",
+    "moreores:lead_axe",
+    "moreores:lead_shovel",
+    "moreores:lead_hoe",
+    "moreores:lead_helmet",
+    "moreores:lead_chestplate",
+    "moreores:lead_leggings",
+    "moreores:lead_boots"
+  ],
+  "result": {
+    "id": "moreores:lead_nugget"
+  }
+}

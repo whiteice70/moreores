@@ -1,0 +1,21 @@
+{
+	"required": true,
+	"package": "com.example.moreores.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"ExampleMixin",
+		"ConsumableMixin",
+		"AbstractArrowAccessor",
+		"FurnaceFuelMixin",
+		"FurnaceFuelSlotMixin",
+		"FurnaceInputSlotMixin",
+		"AbstractFurnaceMenuMixin",
+		"FurnaceRecipeCheckMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

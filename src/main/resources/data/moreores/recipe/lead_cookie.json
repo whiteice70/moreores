@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lead_cookie",
+  "key": {
+    "S": "minecraft:wheat_seeds",
+    "L": "moreores:lead_ingot"
+  },
+  "pattern": [
+    " S ",
+    "SLS",
+    " S "
+  ],
+  "result": {
+    "count": 4,
+    "id": "moreores:lead_cookie"
+  }
+}

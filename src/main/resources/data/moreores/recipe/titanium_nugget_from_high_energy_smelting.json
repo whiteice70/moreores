@@ -1,0 +1,20 @@
+{
+  "type": "moreores:high_energy_smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "titanium_nugget",
+  "ingredient": [
+    "moreores:titanium_sword",
+    "moreores:titanium_pickaxe",
+    "moreores:titanium_axe",
+    "moreores:titanium_shovel",
+    "moreores:titanium_hoe",
+    "moreores:titanium_helmet",
+    "moreores:titanium_chestplate",
+    "moreores:titanium_leggings",
+    "moreores:titanium_boots"
+  ],
+  "result": {
+    "id": "moreores:titanium_nugget"
+  }
+}

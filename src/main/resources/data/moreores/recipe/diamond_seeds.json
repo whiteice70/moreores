@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": "minecraft:diamond",
+    "W": "minecraft:wheat_seeds"
+  },
+  "pattern": [
+    "WWW",
+    "WMW",
+    "WWW"
+  ],
+  "result": {
+    "id": "moreores:diamond_seeds",
+    "count": 8
+  }
+}

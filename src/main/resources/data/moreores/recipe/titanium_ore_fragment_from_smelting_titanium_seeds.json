@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "titanium_ore_fragment",
+  "ingredient": "moreores:titanium_seeds",
+  "result": {
+    "id": "moreores:titanium_ore_fragment"
+  }
+}

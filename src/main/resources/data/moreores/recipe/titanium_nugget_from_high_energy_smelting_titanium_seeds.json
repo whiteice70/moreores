@@ -1,0 +1,10 @@
+{
+  "type": "moreores:high_energy_smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "titanium_nugget",
+  "ingredient": "moreores:titanium_seeds",
+  "result": {
+    "id": "moreores:titanium_nugget"
+  }
+}

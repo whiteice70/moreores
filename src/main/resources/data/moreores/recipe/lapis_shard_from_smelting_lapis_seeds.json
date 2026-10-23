@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "lapis_shard",
+  "ingredient": "moreores:lapis_seeds",
+  "result": {
+    "id": "moreores:lapis_shard"
+  }
+}

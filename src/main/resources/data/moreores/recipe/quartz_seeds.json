@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": "minecraft:quartz",
+    "W": "minecraft:wheat_seeds"
+  },
+  "pattern": [
+    "WWW",
+    "WMW",
+    "WWW"
+  ],
+  "result": {
+    "id": "moreores:quartz_seeds",
+    "count": 8
+  }
+}

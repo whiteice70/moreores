@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "uranium_ingot",
+  "ingredients": [
+    "moreores:uranium_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "moreores:uranium_ingot"
+  }
+}

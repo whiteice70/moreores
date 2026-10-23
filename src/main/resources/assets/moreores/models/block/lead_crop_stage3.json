@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "moreores:block/lead_crop_stage3"
+  }
+}

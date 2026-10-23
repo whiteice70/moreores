@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "uranium_arrow",
+  "key": {
+    "U": "moreores:uranium_ingot",
+    "S": "minecraft:stick",
+    "F": "minecraft:feather"
+  },
+  "pattern": [
+    "U",
+    "S",
+    "F"
+  ],
+  "result": {
+    "count": 4,
+    "id": "moreores:uranium_arrow"
+  }
+}

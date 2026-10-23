@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "emerald_shard",
+  "ingredients": [
+    "minecraft:emerald"
+  ],
+  "result": {
+    "count": 9,
+    "id": "moreores:emerald_shard"
+  }
+}

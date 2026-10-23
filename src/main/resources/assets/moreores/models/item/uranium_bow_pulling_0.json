@@ -1,0 +1,6 @@
+{
+  "parent": "moreores:item/uranium_bow",
+  "textures": {
+    "layer0": "moreores:item/uranium_bow_pulling_0"
+  }
+}

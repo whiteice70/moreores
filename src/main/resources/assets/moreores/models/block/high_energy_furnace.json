@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "moreores:block/high_energy_furnace_top",
+    "bottom": "moreores:block/high_energy_furnace_top",
+    "front": "moreores:block/high_energy_furnace_front",
+    "side": "moreores:block/high_energy_furnace_side"
+  }
+}

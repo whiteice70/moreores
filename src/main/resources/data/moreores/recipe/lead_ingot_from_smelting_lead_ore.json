@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "lead_ingot",
+  "ingredient": "moreores:lead_ore",
+  "result": {
+    "id": "moreores:lead_ingot"
+  }
+}

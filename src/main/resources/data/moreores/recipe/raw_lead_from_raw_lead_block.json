@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "raw_lead",
+  "ingredients": [
+    "moreores:raw_lead_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "moreores:raw_lead"
+  }
+}

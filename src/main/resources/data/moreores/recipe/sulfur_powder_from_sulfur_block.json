@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sulfur_powder",
+  "ingredients": [
+    "minecraft:sulfur"
+  ],
+  "result": {
+    "count": 9,
+    "id": "moreores:sulfur_powder"
+  }
+}

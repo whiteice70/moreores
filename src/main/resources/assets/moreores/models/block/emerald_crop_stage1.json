@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "moreores:block/emerald_crop_stage1"
+  }
+}

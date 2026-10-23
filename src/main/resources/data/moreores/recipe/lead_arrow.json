@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "lead_arrow",
+  "key": {
+    "L": "moreores:lead_ingot",
+    "S": "minecraft:stick",
+    "F": "minecraft:feather"
+  },
+  "pattern": [
+    "L",
+    "S",
+    "F"
+  ],
+  "result": {
+    "count": 4,
+    "id": "moreores:lead_arrow"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "moreores:block/diamond_crop_stage3"
+  }
+}

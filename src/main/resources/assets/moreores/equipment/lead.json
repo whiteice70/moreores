@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "moreores:lead"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "moreores:lead"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "moreores:lead"
+      }
+    ]
+  }
+}

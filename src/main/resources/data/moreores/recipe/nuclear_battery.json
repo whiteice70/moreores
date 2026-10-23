@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": "moreores:lead_ingot",
+    "C": "minecraft:copper_ingot",
+    "U": "moreores:uranium_ingot"
+  },
+  "pattern": [
+    "LCL",
+    "LUL",
+    "LCL"
+  ],
+  "result": {
+    "id": "moreores:nuclear_battery"
+  }
+}

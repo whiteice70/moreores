@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "gunpowder",
+  "ingredients": [
+    "moreores:sulfur_powder",
+    [
+      "minecraft:coal",
+      "minecraft:charcoal"
+    ],
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:gunpowder"
+  }
+}

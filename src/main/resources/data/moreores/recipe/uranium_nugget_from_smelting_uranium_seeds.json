@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "uranium_nugget",
+  "ingredient": "moreores:uranium_seeds",
+  "result": {
+    "id": "moreores:uranium_nugget"
+  }
+}

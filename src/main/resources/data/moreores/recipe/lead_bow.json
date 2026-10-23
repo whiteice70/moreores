@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": "moreores:lead_ingot",
+    "X": "minecraft:string"
+  },
+  "pattern": [
+    " LX",
+    "L X",
+    " LX"
+  ],
+  "result": {
+    "id": "moreores:lead_bow"
+  }
+}

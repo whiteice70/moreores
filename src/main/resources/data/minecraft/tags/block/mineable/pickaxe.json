@@ -1,0 +1,17 @@
+{
+  "values": [
+    "moreores:lead_ore",
+    "moreores:deepslate_lead_ore",
+    "moreores:raw_lead_block",
+    "moreores:lead_block",
+    "moreores:uranium_ore",
+    "moreores:deepslate_uranium_ore",
+    "moreores:raw_uranium_block",
+    "moreores:uranium_block",
+    "moreores:high_energy_furnace",
+    "moreores:titanium_ore",
+    "moreores:deepslate_titanium_ore",
+    "moreores:raw_titanium_block",
+    "moreores:titanium_block"
+  ]
+}

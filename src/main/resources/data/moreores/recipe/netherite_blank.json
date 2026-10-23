@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "netherite_blank",
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "L": "moreores:lead_ingot",
+    "U": "moreores:uranium_block",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "GGG",
+    "LUL",
+    "III"
+  ],
+  "result": {
+    "id": "moreores:netherite_blank"
+  }
+}

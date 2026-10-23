@@ -1,0 +1,9 @@
+{
+  "type": "moreores:bio_catalyzing",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "minecraft:cherry_sapling",
+  "result": {
+    "id": "minecraft:cherry_log"
+  }
+}

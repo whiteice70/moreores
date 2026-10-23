@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "milk_bottle",
+  "key": {
+    "G": "minecraft:glass_bottle",
+    "M": "minecraft:milk_bucket"
+  },
+  "pattern": [
+    "GGG",
+    "GMG",
+    "GGG"
+  ],
+  "result": {
+    "id": "moreores:milk_bottle",
+    "count": 8
+  }
+}

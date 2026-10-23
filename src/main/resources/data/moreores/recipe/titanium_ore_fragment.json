@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "titanium_ore_fragment",
+  "ingredients": [
+    "moreores:raw_titanium"
+  ],
+  "result": {
+    "count": 9,
+    "id": "moreores:titanium_ore_fragment"
+  }
+}

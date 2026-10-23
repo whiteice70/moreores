@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "lead_nugget",
+  "ingredient": "moreores:lead_seeds",
+  "result": {
+    "id": "moreores:lead_nugget"
+  }
+}

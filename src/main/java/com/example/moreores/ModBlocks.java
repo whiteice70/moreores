@@ -8,6 +8,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import com.example.moreores.furnace.HighEnergyFurnaceBlock;
 import com.example.moreores.furnace.BioCatalyzerBlock;
+import com.example.moreores.furnace.MineralCatalyzerBlock;
 
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.AbstractFurnaceBlock;
@@ -54,6 +55,22 @@ public final class ModBlocks {
 					.sound(SoundType.GLASS)
 					.noOcclusion()
 					.lightLevel(state -> state.getValue(AbstractFurnaceBlock.LIT) ? 13 : 0));
+
+	/**
+	 * 矿物催化器：和生物催化器同一副外壳，内部换成岩浆池，常态发光。
+	 *
+	 * <p>配方类型是独立的 {@code moreores:mineral_catalyzing}，
+	 * 所以两台催化器互相看不到对方的配方。
+	 */
+	public static final Block MINERAL_CATALYZER = register("mineral_catalyzer",
+			MineralCatalyzerBlock::new,
+			BlockBehaviour.Properties.of()
+					.requiresCorrectToolForDrops()
+					.strength(3.5F)
+					.sound(SoundType.STONE)
+					.noOcclusion()
+					.lightLevel(state -> 13)
+					.emissiveRendering(state -> true));
 
 	// ---------------- 铅：浅层常见金属 ----------------
 	public static final Block LEAD_ORE = register("lead_ore",

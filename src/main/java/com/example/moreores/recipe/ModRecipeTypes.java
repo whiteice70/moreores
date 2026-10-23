@@ -54,6 +54,17 @@ public final class ModRecipeTypes {
 						}
 					});
 
+	/** 只有矿物催化器认的类型：石头 / 泥土 / 黑曜石等自然方块 → 自身。 */
+	public static final RecipeType<MineralCatalyzingRecipe> MINERAL_CATALYZING =
+			Registry.register(BuiltInRegistries.RECIPE_TYPE,
+					MoreOres.id("mineral_catalyzing"),
+					new RecipeType<MineralCatalyzingRecipe>() {
+						@Override
+						public String toString() {
+							return "moreores:mineral_catalyzing";
+						}
+					});
+
 	private ModRecipeTypes() {
 	}
 

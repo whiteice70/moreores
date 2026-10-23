@@ -14,7 +14,10 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ContainerData;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.AbstractCookingRecipe;
+import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.MenuProvider;
 
@@ -53,8 +56,16 @@ public class BioCatalyzerBlockEntity extends AbstractFurnaceBlockEntity implemen
 	private static final int FUEL_BURN_DIVISOR = 10;
 
 	public BioCatalyzerBlockEntity(BlockPos pos, BlockState state) {
-		super(ModBlockEntities.BIO_CATALYZER, pos, state,
-				ModRecipeTypes.BIO_CATALYZING);
+		this(ModBlockEntities.BIO_CATALYZER, pos, state, ModRecipeTypes.BIO_CATALYZING);
+	}
+
+	/**
+	 * 给子类用的构造：矿物催化器只换方块实体类型和配方桶，其余逻辑完全复用。
+	 */
+	protected BioCatalyzerBlockEntity(BlockEntityType<? extends AbstractFurnaceBlockEntity> type,
+			BlockPos pos, BlockState state,
+			RecipeType<? extends AbstractCookingRecipe> recipeType) {
+		super(type, pos, state, recipeType);
 		// 父类构造里建的是 3 格列表，这里换成 4 格
 		this.items = NonNullList.withSize(SLOT_COUNT, ItemStack.EMPTY);
 	}

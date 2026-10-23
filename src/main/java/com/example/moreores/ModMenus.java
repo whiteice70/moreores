@@ -22,6 +22,12 @@ public final class ModMenus {
 					new MenuType<>(com.example.moreores.furnace.BioCatalyzerMenu::new,
 							FeatureFlags.VANILLA_SET));
 
+	public static final MenuType<com.example.moreores.furnace.MineralCatalyzerMenu> MINERAL_CATALYZER =
+			Registry.register(BuiltInRegistries.MENU,
+					ResourceKey.create(Registries.MENU, MoreOres.id("mineral_catalyzer")),
+					new MenuType<>(com.example.moreores.furnace.MineralCatalyzerMenu::new,
+							FeatureFlags.VANILLA_SET));
+
 	private ModMenus() {
 	}
 

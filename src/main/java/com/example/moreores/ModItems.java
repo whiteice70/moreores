@@ -236,6 +236,7 @@ public final class ModItems {
 		registerBlockItem("uranium_block", ModBlocks.URANIUM_BLOCK);
 		registerBlockItem("high_energy_furnace", ModBlocks.HIGH_ENERGY_FURNACE);
 		registerBlockItem("bio_catalyzer", ModBlocks.BIO_CATALYZER);
+		registerBlockItem("mineral_catalyzer", ModBlocks.MINERAL_CATALYZER);
 
 		registerBlockItem("titanium_ore", ModBlocks.TITANIUM_ORE);
 		registerBlockItem("deepslate_titanium_ore", ModBlocks.DEEPSLATE_TITANIUM_ORE);

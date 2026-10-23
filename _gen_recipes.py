@@ -189,6 +189,7 @@ TITLES = {
     "blasting": "高炉冶炼",
     "high_energy_smelting": "高能熔炉冶炼（模组专有）",
     "bio_catalyzing": "生物催化（模组专有）",
+    "mineral_catalyzing": "矿物催化（模组专有）",
 }
 
 lines = [f"### 全部配方（共 {len(entries)} 条）\n"]
@@ -196,7 +197,7 @@ lines.append("> 本节由脚本直接读取 `data/moreores/recipe/` 生成，"
              "是当前数据包的真值 —— 改配方后重跑 `_gen_recipes.py` 即可。\n")
 
 for rtype in ["crafting_shaped", "crafting_shapeless", "smelting", "blasting",
-              "high_energy_smelting", "bio_catalyzing"]:
+              "high_energy_smelting", "bio_catalyzing", "mineral_catalyzing"]:
     items = groups.get(rtype)
 
     if not items:

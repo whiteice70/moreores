@@ -36,5 +36,9 @@ public final class ModRecipes {
 		Registry.register(BuiltInRegistries.RECIPE_SERIALIZER,
 				MoreOres.id("bio_catalyzing"),
 				BioCatalyzingRecipe.SERIALIZER);
+
+		Registry.register(BuiltInRegistries.RECIPE_SERIALIZER,
+				MoreOres.id("mineral_catalyzing"),
+				MineralCatalyzingRecipe.SERIALIZER);
 	}
 }

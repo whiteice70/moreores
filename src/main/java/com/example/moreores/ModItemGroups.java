@@ -84,6 +84,7 @@ public final class ModItemGroups {
 
 							output.accept(ModBlocks.HIGH_ENERGY_FURNACE);
 							output.accept(ModBlocks.BIO_CATALYZER);
+							output.accept(ModBlocks.MINERAL_CATALYZER);
 							output.accept(ModItems.SULFUR_POWDER);
 							output.accept(ModItems.LEAD_COOKIE);
 							output.accept(ModItems.MILK_BOTTLE);

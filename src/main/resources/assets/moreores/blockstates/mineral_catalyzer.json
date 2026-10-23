@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=north,lit=false": {
+      "model": "moreores:block/mineral_catalyzer"
+    },
+    "facing=north,lit=true": {
+      "model": "moreores:block/mineral_catalyzer"
+    },
+    "facing=east,lit=false": {
+      "model": "moreores:block/mineral_catalyzer"
+    },
+    "facing=east,lit=true": {
+      "model": "moreores:block/mineral_catalyzer"
+    },
+    "facing=south,lit=false": {
+      "model": "moreores:block/mineral_catalyzer"
+    },
+    "facing=south,lit=true": {
+      "model": "moreores:block/mineral_catalyzer"
+    },
+    "facing=west,lit=false": {
+      "model": "moreores:block/mineral_catalyzer"
+    },
+    "facing=west,lit=true": {
+      "model": "moreores:block/mineral_catalyzer"
+    }
+  }
+}

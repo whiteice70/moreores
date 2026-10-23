@@ -1,0 +1,9 @@
+{
+  "type": "moreores:mineral_catalyzing",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "minecraft:andesite",
+  "result": {
+    "id": "minecraft:andesite"
+  }
+}

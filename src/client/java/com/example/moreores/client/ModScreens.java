@@ -3,6 +3,7 @@ package com.example.moreores.client;
 import com.example.moreores.ModMenus;
 import com.example.moreores.client.furnace.HighEnergyFurnaceScreen;
 import com.example.moreores.client.furnace.BioCatalyzerScreen;
+import com.example.moreores.client.furnace.MineralCatalyzerScreen;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
@@ -14,5 +15,6 @@ public final class ModScreens {
 	public static void register() {
 		MenuScreens.register(ModMenus.HIGH_ENERGY_FURNACE, HighEnergyFurnaceScreen::new);
 		MenuScreens.register(ModMenus.BIO_CATALYZER, BioCatalyzerScreen::new);
+		MenuScreens.register(ModMenus.MINERAL_CATALYZER, MineralCatalyzerScreen::new);
 	}
 }

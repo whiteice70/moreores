@@ -2340,6 +2340,21 @@ Failed to load datapacks, can't proceed with server load
 > 其实就是差几十 tick。改成 25 秒后正常。判断有没有跑完要看
 > `lit_time_remaining`（剩余燃料）折算出的实际运行时间，不能光看墙钟。
 
+#### 矿物催化器（同款外壳）
+
+`moreores:mineral_catalyzer` 复用了生物催化器的外壳与全部机器逻辑，只换三样东西：
+
+- **配方桶**：独立的 `moreores:mineral_catalyzing`，只支持石头 / 泥土 / 黑曜石等
+  20 种自然方块 → 自身的复制，两台催化器互相看不到对方的配方。
+- **合成**：生物催化器中间的泥土换成石头。
+- **外观**：罩内草坪上换成一小片岩浆（模型直接引用 `minecraft:block/lava_still`，
+  保留原版动画），并恒定亮度 13 + `emissiveRendering`，也就是「常态发光」。
+
+`MineralCatalyzerBlockEntity` 直接继承 `BioCatalyzerBlockEntity`，只改配方桶、
+方块实体类型和菜单；「催化物不消耗」「只吃核子电池」「副产物槽」全部原样复用。
+
+生物催化器另外新增了 **鸡蛋 → 鸡蛋** 的复制配方（45 条）。
+
 ---
 
 ### 8.28 下界合金胚：自己造下界合金

@@ -32,6 +32,15 @@ public final class ModBlockEntities {
 							com.example.moreores.furnace.BioCatalyzerBlockEntity::new,
 							Set.of(ModBlocks.BIO_CATALYZER)));
 
+	public static final BlockEntityType<com.example.moreores.furnace.MineralCatalyzerBlockEntity>
+			MINERAL_CATALYZER =
+			Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE,
+					ResourceKey.create(Registries.BLOCK_ENTITY_TYPE,
+							MoreOres.id("mineral_catalyzer")),
+					new BlockEntityType<>(
+							com.example.moreores.furnace.MineralCatalyzerBlockEntity::new,
+							Set.of(ModBlocks.MINERAL_CATALYZER)));
+
 	private ModBlockEntities() {
 	}
 

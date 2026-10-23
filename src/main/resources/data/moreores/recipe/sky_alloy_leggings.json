@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": "moreores:sky_alloy_ingot",
+    "T": "moreores:titanium_leggings"
+  },
+  "pattern": [
+    "SSS",
+    "STS",
+    "SSS"
+  ],
+  "result": {
+    "id": "moreores:sky_alloy_leggings"
+  }
+}

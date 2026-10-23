@@ -60,6 +60,14 @@ public final class ModItems {
 	public static final Item TITANIUM_NUGGET = register("titanium_nugget", Item::new, new Item.Properties());
 
 	/**
+	 * 天空合金锭：4 钛锭 + 4 钻石 + 1 核子电池合成。
+	 *
+	 * <p>用来把钛甲升级成天空合金甲，本身没有工具 / 方块形态。
+	 */
+	public static final Item SKY_ALLOY_INGOT = register("sky_alloy_ingot", Item::new,
+			new Item.Properties());
+
+	/**
 	 * 钛矿碎片：**矿石那一级**的小单位，介于「矿石」和「粗矿」之间。
 	 *
 	 * <ul>

@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "moreores:sky_alloy"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "moreores:sky_alloy"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "moreores:sky_alloy"
+      }
+    ]
+  }
+}

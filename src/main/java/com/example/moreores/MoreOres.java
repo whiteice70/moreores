@@ -5,6 +5,7 @@ import com.example.moreores.crop.ModSeeds;
 import com.example.moreores.effect.ModEffects;
 import com.example.moreores.interaction.MilkBottleHandler;
 import com.example.moreores.interaction.NatureTalismanHandler;
+import com.example.moreores.interaction.SkyAlloyFlightHandler;
 import com.example.moreores.radiation.RadiationManager;
 import com.example.moreores.recipe.ModRecipes;
 import com.example.moreores.recipe.RecipeAutoUnlock;
@@ -45,6 +46,7 @@ public class MoreOres implements ModInitializer {
 		RadiationManager.register();
 		MilkBottleHandler.register();
 		NatureTalismanHandler.register();
+		SkyAlloyFlightHandler.register();
 		// 拿到配方里任意物品就自动解锁（见 RecipeAutoUnlock）
 		RecipeAutoUnlock.register();
 

@@ -63,6 +63,7 @@ public final class ModItemGroups {
 							output.accept(ModItems.TITANIUM_INGOT);
 							output.accept(ModItems.TITANIUM_NUGGET);
 							output.accept(ModItems.TITANIUM_ORE_FRAGMENT);
+							output.accept(ModItems.SKY_ALLOY_INGOT);
 							output.accept(ModItems.NETHERITE_BLANK);
 							output.accept(ModItems.DIAMOND_SHARD);
 							output.accept(ModItems.EMERALD_SHARD);
@@ -81,6 +82,10 @@ public final class ModItemGroups {
 							output.accept(ModArmor.TITANIUM_CHESTPLATE);
 							output.accept(ModArmor.TITANIUM_LEGGINGS);
 							output.accept(ModArmor.TITANIUM_BOOTS);
+							output.accept(ModArmor.SKY_ALLOY_HELMET);
+							output.accept(ModArmor.SKY_ALLOY_CHESTPLATE);
+							output.accept(ModArmor.SKY_ALLOY_LEGGINGS);
+							output.accept(ModArmor.SKY_ALLOY_BOOTS);
 
 							output.accept(ModBlocks.HIGH_ENERGY_FURNACE);
 							output.accept(ModBlocks.BIO_CATALYZER);

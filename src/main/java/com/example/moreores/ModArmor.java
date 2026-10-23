@@ -29,6 +29,9 @@ public final class ModArmor {
 	/** 铅甲重：每件 -5% 移速，四件齐了 -20%。 */
 	private static final double SPEED_PER_LEAD_PIECE = -0.05D;
 
+	/** 天空合金甲：每件 +10% 移速，四件齐了 +40%。 */
+	private static final double SPEED_PER_SKY_ALLOY_PIECE = 0.10D;
+
 	/**
 	 * 铅甲挡辐射：每件 -25% 的**辐射穿透率**。
 	 *
@@ -62,6 +65,17 @@ public final class ModArmor {
 			ModArmorMaterials.TITANIUM, ArmorType.LEGGINGS, SPEED_PER_TITANIUM_PIECE, 0.0D);
 	public static final Item TITANIUM_BOOTS = register("titanium_boots",
 			ModArmorMaterials.TITANIUM, ArmorType.BOOTS, SPEED_PER_TITANIUM_PIECE, 0.0D);
+
+	// ---------------- 天空合金 ----------------
+	// 数值对齐下界合金套，每件附加 +10% 移速；全套飞行由 SkyAlloyFlightHandler 负责。
+	public static final Item SKY_ALLOY_HELMET = register("sky_alloy_helmet",
+			ModArmorMaterials.SKY_ALLOY, ArmorType.HELMET, SPEED_PER_SKY_ALLOY_PIECE, 0.0D);
+	public static final Item SKY_ALLOY_CHESTPLATE = register("sky_alloy_chestplate",
+			ModArmorMaterials.SKY_ALLOY, ArmorType.CHESTPLATE, SPEED_PER_SKY_ALLOY_PIECE, 0.0D);
+	public static final Item SKY_ALLOY_LEGGINGS = register("sky_alloy_leggings",
+			ModArmorMaterials.SKY_ALLOY, ArmorType.LEGGINGS, SPEED_PER_SKY_ALLOY_PIECE, 0.0D);
+	public static final Item SKY_ALLOY_BOOTS = register("sky_alloy_boots",
+			ModArmorMaterials.SKY_ALLOY, ArmorType.BOOTS, SPEED_PER_SKY_ALLOY_PIECE, 0.0D);
 
 	private ModArmor() {
 	}

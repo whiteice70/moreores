@@ -2672,6 +2672,35 @@ effect moreores:radiation 给猪     Applied effect Radiation ✓（辐射系统
 
 ---
 
+### 8.32 天空合金：钛甲的飞行升级
+
+**天空合金锭**（`moreores:sky_alloy_ingot`）由 4 钛锭 + 4 钻石 + 1 核子电池合成：
+
+```
+T D T     T = 钛锭
+D B D     D = 钻石
+T D T     B = 核子电池
+```
+
+贴图是把钛锭 / 钛甲的灰度图按 HSV 重新着色成天蓝色（色相约 205°），
+保留了原图的明暗和轮廓，只换颜色。
+
+**天空合金甲**不是按锭摆形状，而是把对应钛甲放中间、周围 8 个天空合金锭升级。
+数值**完全对齐下界合金套**：耐久倍率 37、附魔度 15、护甲值 3/8/6/3、
+韧性 3.0、击退抗性 0.1，修理材料为天空合金锭。
+
+两处额外效果：
+
+| 效果 | 实现 |
+|---|---|
+| 每件 **+10% 移速**（全套 +40%） | 和钛甲一样写进 `ATTRIBUTE_MODIFIERS`，`ADD_MULTIPLIED_BASE(0.10)` |
+| **全套获得创造模式飞行** | `interaction/SkyAlloyFlightHandler` 每 tick 检查四件套；齐全时打开 `mayfly` 并 `onUpdateAbilities()`，脱下任意一件就收回 |
+
+飞行能力用 **UUID 记录**「这次是天空合金给的」，所以不会误删创造 / 旁观模式
+或其它模组提供的飞行；创造和旁观玩家本来就能飞，处理器直接跳过。
+
+---
+
 ## 9. 参考链接
 
 - Fabric 官方版本/模板生成器：<https://fabricmc.net/develop/> 、<https://fabricmc.net/develop/template/>

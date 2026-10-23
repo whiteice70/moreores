@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": "moreores:titanium_ingot",
+    "D": "minecraft:diamond",
+    "B": "moreores:nuclear_battery"
+  },
+  "pattern": [
+    "TDT",
+    "DBD",
+    "TDT"
+  ],
+  "result": {
+    "id": "moreores:sky_alloy_ingot"
+  }
+}

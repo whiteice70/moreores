@@ -40,6 +40,9 @@ public final class ModArmorMaterials {
 	public static final ResourceKey<EquipmentAsset> TITANIUM_ASSET =
 			ResourceKey.create(EquipmentAssets.ROOT_ID, MoreOres.id("titanium"));
 
+	public static final ResourceKey<EquipmentAsset> SKY_ALLOY_ASSET =
+			ResourceKey.create(EquipmentAssets.ROOT_ID, MoreOres.id("sky_alloy"));
+
 	/** 修理材料：内容写在 data/moreores/tags/item/lead_armor_repair.json。 */
 	private static final TagKey<Item> REPAIRS_LEAD_ARMOR =
 			TagKey.create(Registries.ITEM, MoreOres.id("lead_armor_repair"));
@@ -47,6 +50,10 @@ public final class ModArmorMaterials {
 	/** 修理材料：内容写在 data/moreores/tags/item/titanium_armor_repair.json。 */
 	private static final TagKey<Item> REPAIRS_TITANIUM_ARMOR =
 			TagKey.create(Registries.ITEM, MoreOres.id("titanium_armor_repair"));
+
+	/** 修理材料：内容写在 data/moreores/tags/item/sky_alloy_armor_repair.json。 */
+	private static final TagKey<Item> REPAIRS_SKY_ALLOY_ARMOR =
+			TagKey.create(Registries.ITEM, MoreOres.id("sky_alloy_armor_repair"));
 
 	public static final ArmorMaterial LEAD = new ArmorMaterial(
 			15,
@@ -75,6 +82,32 @@ public final class ModArmorMaterials {
 			0.0F,
 			REPAIRS_TITANIUM_ARMOR,
 			TITANIUM_ASSET);
+
+	/**
+	 * 天空合金甲：数值完全对齐下界合金套。
+	 *
+	 * <pre>
+	 *   耐久倍率 37 / 附魔度 15
+	 *   护甲值 靴 3、腿 6、胸 8、头 3
+	 *   韧性 3.0 / 击退抗性 0.1
+	 * </pre>
+	 *
+	 * <p>额外效果不写在材质里：每件 +10% 移速由 {@link ModArmor} 追加，
+	 * 全套飞行由 {@code SkyAlloyFlightHandler} 负责。
+	 */
+	public static final ArmorMaterial SKY_ALLOY = new ArmorMaterial(
+			37,
+			Map.of(
+					ArmorType.BOOTS, 3,
+					ArmorType.LEGGINGS, 6,
+					ArmorType.CHESTPLATE, 8,
+					ArmorType.HELMET, 3),
+			15,
+			SoundEvents.ARMOR_EQUIP_NETHERITE,
+			3.0F,
+			0.1F,
+			REPAIRS_SKY_ALLOY_ARMOR,
+			SKY_ALLOY_ASSET);
 
 	private ModArmorMaterials() {
 	}

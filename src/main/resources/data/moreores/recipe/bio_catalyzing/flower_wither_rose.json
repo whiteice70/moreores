@@ -1,0 +1,9 @@
+{
+  "type": "moreores:bio_catalyzing",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "minecraft:wither_rose",
+  "result": {
+    "id": "minecraft:wither_rose"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "moreores:bio_catalyzing",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "minecraft:brown_mushroom",
+  "result": {
+    "id": "minecraft:brown_mushroom"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "moreores:bio_catalyzing",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "minecraft:warped_fungus",
+  "result": {
+    "id": "minecraft:warped_fungus"
+  }
+}

@@ -2353,7 +2353,8 @@ Failed to load datapacks, can't proceed with server load
 `MineralCatalyzerBlockEntity` 直接继承 `BioCatalyzerBlockEntity`，只改配方桶、
 方块实体类型和菜单；「催化物不消耗」「只吃核子电池」「副产物槽」全部原样复用。
 
-生物催化器另外新增了 **鸡蛋 → 鸡蛋** 的复制配方（45 条）。
+生物催化器另外新增了 **鸡蛋 → 鸡蛋**、**27 种花 → 自身** 和
+**12 种植物 / 菌类 → 自身** 的复制配方，总数达到 **84 条**。
 
 ---
 

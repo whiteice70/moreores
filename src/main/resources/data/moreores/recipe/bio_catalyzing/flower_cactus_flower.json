@@ -1,0 +1,9 @@
+{
+  "type": "moreores:bio_catalyzing",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "minecraft:cactus_flower",
+  "result": {
+    "id": "minecraft:cactus_flower"
+  }
+}

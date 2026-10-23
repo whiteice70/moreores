@@ -2,6 +2,7 @@ package com.example.moreores.mixin;
 
 import com.example.moreores.furnace.HighEnergyFurnaceMenu;
 import com.example.moreores.furnace.BioCatalyzerMenu;
+import com.example.moreores.furnace.MineralCatalyzerMenu;
 import com.example.moreores.furnace.ShortSafeContainerData;
 
 import net.minecraft.world.inventory.AbstractFurnaceMenu;
@@ -62,9 +63,10 @@ public class AbstractFurnaceMenuMixin {
 		// 构造执行到这里时 super() 已经跑完，this 是完整的子类实例。
 		// 先用 (Object) 转一下：编译期本类还不认识 HighEnergyFurnaceMenu，
 		// 直接 instanceof 会报「不兼容的类型」。
-		// 生物催化器用的也是同一套「两行平行」布局，所以一并挪
+		// 生物催化器 / 矿物催化器用的也是同一套「两行平行」布局，所以一并挪
 		return ((Object) this) instanceof HighEnergyFurnaceMenu
 				|| ((Object) this) instanceof BioCatalyzerMenu
+				|| ((Object) this) instanceof MineralCatalyzerMenu
 						? ALIGNED_RESULT_Y : original;
 	}
 

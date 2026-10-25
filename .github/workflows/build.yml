@@ -35,4 +35,6 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release upload v1.0.0-fabric-26.3 build/libs/moreores-1.0.0.jar --clobber
+        run: |
+          cp build/libs/moreores-1.0.0.jar build/libs/moreores-1.0.0-fabric-26.3.jar
+          gh release upload v1.0.0-fabric-26.3 build/libs/moreores-1.0.0-fabric-26.3.jar --clobber

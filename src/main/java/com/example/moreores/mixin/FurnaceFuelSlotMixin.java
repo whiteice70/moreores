@@ -1,6 +1,7 @@
 package com.example.moreores.mixin;
 
 import com.example.moreores.ModItems;
+import com.example.moreores.furnace.BioCatalyzerBlockEntity;
 import com.example.moreores.furnace.HighEnergyFurnaceBlockEntity;
 
 import net.minecraft.world.inventory.FurnaceFuelSlot;
@@ -26,7 +27,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
  * <p>只改这一个方法就能同时管住「鼠标点击放置」「拖拽分配」「Shift 快速移动」
  * 三条路径，因为它们都会去问槽位能放多少。
  *
- * <p>高能熔炉不受影响（它烧得快，燃料时长已被除以 10），靠容器类型排除。
+ * <p>高能熔炉和两台催化器不受影响：它们的燃料时长都被除以 10，
+ * 靠容器类型排除（矿物催化器继承自 {@link BioCatalyzerBlockEntity}，一并豁免）。
  */
 @Mixin(FurnaceFuelSlot.class)
 public abstract class FurnaceFuelSlotMixin extends Slot {
@@ -47,6 +49,11 @@ public abstract class FurnaceFuelSlotMixin extends Slot {
 
 		// 高能熔炉照旧
 		if (this.container instanceof HighEnergyFurnaceBlockEntity) {
+			return;
+		}
+
+		// 两台催化器的燃料按 1/10 时长消耗，不套用这条防呆
+		if (this.container instanceof BioCatalyzerBlockEntity) {
 			return;
 		}
 

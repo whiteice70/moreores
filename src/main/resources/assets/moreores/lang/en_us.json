@@ -30,6 +30,7 @@
   "container.moreores.bio_catalyzer": "Bio Catalyzer",
   "container.moreores.mineral_catalyzer": "Mineral Catalyzer",
   "effect.moreores.radiation": "Radiation",
+  "enchantment.moreores.steadfast": "Death Protection",
   "attribute.name.moreores.radiation_shielding": "Radiation",
   "item.moreores.coal_seeds": "Coal Seeds",
   "item.moreores.diamond_shard": "Diamond Shard",

@@ -10,7 +10,8 @@
 		"FurnaceFuelSlotMixin",
 		"FurnaceInputSlotMixin",
 		"AbstractFurnaceMenuMixin",
-		"FurnaceRecipeCheckMixin"
+		"FurnaceRecipeCheckMixin",
+		"SteadfastInventoryMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

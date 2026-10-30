@@ -30,6 +30,7 @@
   "container.moreores.bio_catalyzer": "生物催化器",
   "container.moreores.mineral_catalyzer": "矿物催化器",
   "effect.moreores.radiation": "辐射",
+  "enchantment.moreores.steadfast": "死亡保护",
   "attribute.name.moreores.radiation_shielding": "辐射",
   "item.moreores.coal_seeds": "煤炭种子",
   "item.moreores.diamond_shard": "钻石碎片",
